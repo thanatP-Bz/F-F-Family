@@ -10,6 +10,12 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="style.css" />
 
     <title>Document</title>
@@ -17,96 +23,178 @@
   <body>
     <!--showcase and header-->
     <section id="showcase">
-        <header>
-        <div class="container-fuild">   
-            <nav class="navbar navbar-expand-lg navbar-dark">
+      <header>
+        <div class="container-fuild">
+          <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="">F&F Family</a>
 
-                <a class="navbar-brand" href="">F&F Family</a>
-        
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-        
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        
-                  <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                      <a class="nav-link" href="#footer">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#pricing">Pictures</a>
-                    </li>
-                  </ul>
-        
-                </div>
-              </nav>
-                    
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarTogglerDemo02"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
 
-                <div class="row content">
-                    <div class="showcase-content">
-                        <h1>Welcome to F&F Family</h1>
-                       <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
-                        <a href="" class="btn">Read More</a>
-                    </div>
-                </div>
-           </div>  
-        </header>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#footer">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#pricing">Pictures</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+          <div class="row content">
+            <div class="showcase-content">
+              <h1>Welcome to F&F Family</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+              <a href="" class="btn">Read More</a>
+            </div>
+          </div>
+        </div>
+      </header>
     </section>
 
     <!--menber pictures-->
     <section id="members">
-        <div class="h1-content">
-            <h1>Family Members</h1>
-        </div>
-       
-            <div class="family-pic">
-                <div class="box-1">
-                    <img src="./img/parents.jpg" alt="">
-                </div>
-                <div class="box-2">
-                    <img src="./img/E&A.jpg" alt="">
-                </div>
-                <div class="box-1">
-                    <img src="./img/baby-1.jpg" alt="">
-                </div>
-            </div>
+      <div class="h1-content">
+        <h1>Family Members</h1>
+      </div>
 
-            <div class="family-pic">
-                <div class="box-2">
-                    <img src="./img/Elijah.jpg" alt=""></div>
-                <div class="box-1">
-                    <img src="./img/unnamed (3).jpg" alt="">
-                </div>
-            </div>
-        
-    
+      <div class="family-pic">
+        <div class="box-1">
+          <img src="./img/parents.jpg" alt="" />
+          <div class="action">
+            <a href="#">Lizzie & Andrew</a>
+          </div>
+        </div>
+        <div class="box-2">
+          <img src="./img/E&A.jpg" alt="" />
+          <div class="action">
+            <a href="#">Lizzie & Andrew</a>
+          </div>
+        </div>
+        <div class="box-1">
+          <img src="./img/baby-1.jpg" alt="" />
+          <div class="action">
+            <a href="#">Naomi</a>
+          </div>
+        </div>
+        <div class="box-2">
+          <img src="./img/Elijah.jpg" alt="" />
+          <div class="action">
+            <a href="#">Elijah</a>
+          </div>
+        </div>
+        <div class="box-1">
+          <img src="./img/unnamed (3).jpg" alt="" />
+          <div class="action">
+            <a href="#">Goldie</a>
+          </div>
+        </div>
+        <div class="box-1">
+          <img src="./img/baby-2.jpg" alt="" />
+          <div class="action">
+            <a href="#">Benz</a>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!--slider pictures-->
-    <section id="gird-image">
-       
+    <section id="slider-image">
+      <h1>Family Events</h1>
+      <div class="flex-content">
+        <div class="slider">
+          <div class="slide current">
+            <div class="content"></div>
+          </div>
+          <div class="slide">
+            <div class="content"></div>
+          </div>
+          <div class="slide">
+            <div class="content"></div>
+          </div>
+          <div class="slide">
+            <div class="content"></div>
+          </div>
+          <div class="slide">
+            <div class="content"></div>
+          </div>
+
+          <div class="slide">
+            <div class="content"></div>
+          </div>
+          <div class="slide">
+            <div class="content"></div>
+          </div>
+          <div class="slide">
+            <div class="content"></div>
+          </div>
+        </div>
+        <div class="buttons">
+          <button id="prev"><i class="fas fa-arrow-left"></i></button>
+          <button id="next"><i class="fas fa-arrow-right"></i></button>
+        </div>
+      </div>
     </section>
 
-
     <!--naomi section-->
-    <section id="subscribe"><div class="container">
-            <form action="">
-                <div class="email-box">
-                    <input class="tbox" type="text" placeholder="Enter your e-mail">
-                    <button class="btn-letter">Subscribe</button>
-                </div>
+    <section id="subscribe">
+      <h1>You will get a notification when we update</h1>
+      <div class="container">
+        <form action="">
+          <div class="email-box">
+            <input class="tbox" type="text" placeholder="Enter your e-mail" />
+            <button class="btn-letter">Subscribe</button>
+          </div>
+        </form>
 
-                <div class="baby-image">
-                    <img src="" alt="">
-                </div>
-            </form>
+        <div class="img">
+          <div class="control-img">
+            <img src="./img/naomi-2.jpg" alt="" />
+          </div>
+          <div class="control-img">
+            <img src="./img/noami-6.jpg" alt="" />
+          </div>
+          <div class="control-img">
+            <img src="./img/naomi-7.jpg" alt="" />
+          </div>
+          <div class="control-img">
+            <img src="./img/naomi-4.jpg" alt="" />
+          </div>
+          <div class="control-img">
+            <img src="./img/naomi-5.jpg" alt="" />
+          </div>
+        </div>
+      </div>
     </section>
 
     <!--footer-->
     <footer id="footer">
-        <div class="footer-bottom">
-            <p>copyright &copy:2021 Jason & Friends. Designed by Benz</p>
-        </div>
+      <div class="footer-left">
+        <p>copyright &copy:2021 Fischer&Fidler Family. Designed by Benz</p>
+      </div>
+
+      <div class="footer-right">
+        <li>
+          <a href=""><i class="fab fa-facebook-f"></i></a>
+        </li>
+        <li>
+          <a href=""><i class="fab fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href=""><i class="fab fa-instagram"></i></a>
+        </li>
+        <li>
+          <a href=""><i class="fab fa-github"></i></a>
+        </li>
+      </div>
     </footer>
 
     <script
