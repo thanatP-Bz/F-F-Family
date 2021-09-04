@@ -1,0 +1,22 @@
+/*gallery*/
+.gallery-h1 {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+
+.grid-section {
+  position: relative;
+  column-count: 5;
+  padding: 20px;
+}
+
+.grid {
+  display: inline-block;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+}
