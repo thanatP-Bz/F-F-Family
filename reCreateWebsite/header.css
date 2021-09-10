@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@200&display=swap");
+:root {
+  --main-color: #0fb9b1;
+  --bg-color-1: #eee;
+  --bg-color-2: #fff;
+  --box-shadow: 0 0.5px 1.5px rgba(0, 0, 0, 0.2);
+  --font-family: "Urbanist", sans-serif;
+  --text-color-1: #444;
+  --text-color-2: #666;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: var(--bg-color-1);
+  font-family: var(--font-family);
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 1.2rem 9%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  background-color: var(--bg-color-2);
+  box-shadow: var(--box-shadow);
+}
+
+.logo {
+  font-size: 2rem;
+  color: var(--text-color-1);
+  font-weight: bold;
+  padding: 0 1rem;
+}
+
+.navbar {
+  display: flex;
+}
+
+.navbar a {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0.8rem 0.5rem;
+  color: var(--text-color-1);
+}
+
+.header .menu-bar {
+  position: absolute;
+  top: 112%;
+  right: 9%;
+  background-color: var(--bg-color-2);
+  border-radius: 5px;
+  text-align: center;
+  width: 15rem;
+  padding: 1rem;
+  box-shadow: var(--box-shadow);
+  display: none;
+}
+
+.header .menu-bar.active {
+  display: block;
+}
+
+.header .menu-bar a {
+  color: var(--text-color-1);
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0.7rem;
+}
+
+.header .menu-bar a:hover {
+  border-radius: 5px;
+  color: var(--bg-color-1);
+  background-color: var(--main-color);
+}
+
+.navbar .icons div {
+  height: 3rem;
+  line-height: 3rem;
+  width: 3rem;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  color: var(--text-color-1);
+  background: var(--bg-color-1);
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+.navbar .icons div:hover {
+  color: var(--bg-color-1);
+  background-color: var(--main-color);
+}
+
+.header .colors-palette {
+  position: absolute;
+  top: 112%;
+  right: 9%;
+  background-color: var(--bg-color-2);
+  border-radius: 5px;
+  text-align: center;
+  width: 10rem;
+  padding: 1rem;
+  box-shadow: var(--box-shadow);
+  display: none;
+}
+
+.header .colors-palette.active {
+  display: block;
+}
+
+.header .colors-palette h3 {
+  padding: 0.7rem;
+  color: var(--text-color-1);
+}
+
+.header .colors-palette .colors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.header .colors-palette .colors .color {
+  border-radius: 50%;
+  cursor: pointer;
+  height: 3rem;
+  width: 3rem;
+}
+
+#menu-btn {
+  display: none;
+}
+@media (max-width: 768px) {
+  .navbar a {
+    display: none;
+  }
+
+  #menu-btn {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 450px) {
+  .navbar a {
+    display: none;
+  }
+
+  #menu-btn {
+    display: inline-block;
+  }
+}
