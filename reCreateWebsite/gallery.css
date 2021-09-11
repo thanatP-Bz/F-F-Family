@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@200&display=swap");
+:root {
+  --main-color: #0fb9b1;
+  --bg-color-1: #eee;
+  --bg-color-2: #fff;
+  --text-color-1: #444;
+  --text-color-2: #666;
+  --box-shadow: 0 0.5px 1.5px rgba(0, 0, 0, 0.2);
+  --font-family: "Urbanist", sans-serif;
+}
+
+.gallery {
+  padding-top: 120px;
+}
+
+.gallery h1 {
+  text-align: center;
+  font-size: 2.3rem;
+  color: var(--text-color-1);
+  margin-bottom: 2rem;
+}
+
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-gap: 1.2rem;
+  margin: 0 9%;
+}
+
+.gallery-container .image-box {
+  overflow: hidden;
+  height: 25rem;
+  position: relative;
+  border: 1rem solid #fff;
+  border-radius: 0.5rem;
+  box-shadow: var(--box-shadow);
+  cursor: pointer;
+}
+
+.gallery-container .image-box img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
