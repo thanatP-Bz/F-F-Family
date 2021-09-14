@@ -13,10 +13,14 @@
   min-height: 90vh;
   position: relative;
   display: flex;
-  padding-top: 8rem;
+  margin: 5.9% 9% 0 9%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(./image/marisa-howenstine-Cq9slNxV8YU-unsplash.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  border: 1rem solid #fff;
+  border-radius: 5px;
 }
 
 .content {
@@ -34,12 +38,12 @@
 .content h2 {
   margin-bottom: 1.2rem;
   font-size: 2rem;
-  color: var(--text-color-1);
+  color: var(--bg-color-1);
 }
 
 .content p {
   font-size: 1.3rem;
-  color: var(--text-color-1);
+  color: var(--bg-color-1);
 }
 
 .content .btn {
