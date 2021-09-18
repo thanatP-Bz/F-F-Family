@@ -19,6 +19,9 @@
   width: 160px;
   height: 160px;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .outer {
@@ -27,7 +30,6 @@
   padding: 20px;
   border-radius: 50%;
   box-shadow: 6px 6px 10px -1px (rgba(0, 0, 0, 0.15), -6px -6px 10px -1px rgba(255, 255, 255, 0.7));
-  border: 1px solid red;
 }
 
 .inner {
@@ -35,5 +37,25 @@
   width: 120px;
   border-radius: 50%;
   padding: 20px;
-  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#number {
+  font-weight: bold;
+}
+
+circle {
+  fill: none;
+  stroke: cornflowerblue;
+  stroke-width: 20px;
+  stroke-dashoffset: 0;
+  stroke-dasharray: 400;
+}
+
+svg {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
