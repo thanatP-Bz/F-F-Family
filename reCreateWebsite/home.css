@@ -38,12 +38,12 @@
 .content h2 {
   margin-bottom: 1.2rem;
   font-size: 2rem;
-  color: var(--bg-color-1);
+  color: #fff;
 }
 
 .content p {
   font-size: 1.3rem;
-  color: var(--bg-color-1);
+  color: #fff;
 }
 
 .content .btn {

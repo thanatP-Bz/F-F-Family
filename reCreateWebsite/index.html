@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="home.css" />
     <link rel="stylesheet" href="compliment.css" />
     <link rel="stylesheet" href="gallery.css" />
-    <link rel="stylesheet" href="progress.css" />
+    <link rel="stylesheet" href="detail.css" />
+    <link rel="stylesheet" href="subscribe.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
@@ -129,6 +130,26 @@
     </section>
     <!-- compliment section end -->
 
+    <!-- progress circle-->
+    <section class="detail" id="detail">
+      <div class="picture-container">
+        <img src="./image/mariana-ibanez-Ht6uD-8HWFU-unsplash.jpg" alt="" />
+      </div>
+      <div class="content-container">
+        <div class="inside-content">
+          <h2>What I like to say to the family</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis
+            quis aliquid voluptatem, officia alias rem. Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Nesciunt laboriosam aliquam neque
+            nulla minus dicta assumenda deserunt dolore nostrum cum.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- progress circle end -->
+
     <!-- picture gallery  -->
     <section class="gallery" id="gallery">
       <h1>Gallery</h1>
@@ -155,32 +176,21 @@
     </section>
     <!-- picture gallery end -->
 
-    <!-- progress circle-->
-    <section class="progress" id="progress">
-      <div class="skill">
-        <div class="outer">
-          <div class="inner">
-            <div id="number">65%</div>
-          </div>
+    <!-- Subscribe  -->
+    <section id="subscribe" class="subscribe">
+      <h1><span>Subscribe</span> to get the lastest update</h1>
+      <div class="flex-container">
+        <div class="input-box">
+          <input type="email" />
         </div>
-
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          version="1.1"
-          width="160px"
-          height="160px"
-        >
-          <defs>
-            <linearGradient id="GradientColor">
-              <stop offset="0%" stop-color="#e91e63" />
-              <stop offset="100%" stop-color="#673ab7" />
-            </linearGradient>
-          </defs>
-          <circle cx="80" cy="80" r="70" stroke-linecap="round" />
-        </svg>
+        <div class="sub-button">
+          <a class="btn">Send</a>
+        </div>
       </div>
     </section>
-    <!-- progress circle end -->
+
+    <!-- Subscribe end -->
+
     <script src="header.js"></script>
   </body>
 </html>
