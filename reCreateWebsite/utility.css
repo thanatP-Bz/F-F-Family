@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+:root {
+  --main-color: #0fb9b1;
+  --bg-color-1: #eee;
+  --bg-color-2: #fff;
+  --text-color-1: #444;
+  --text-color-2: #666;
+  --box-shadow: 0 0.5px 1.5px rgba(0, 0, 0, 0.2);
+  --font-family: "Urbanist", sans-serif;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.7rem 3.5rem;
+  font-size: 1.3rem;
+  color: #fff;
+  border-radius: 5rem;
+  cursor: pointer;
+  background-color: var(--main-color);
+}
+
+span {
+  font-family: "Cookie", cursive;
+  font-size: 3.5rem;
+  color: var(--main-color);
+}
