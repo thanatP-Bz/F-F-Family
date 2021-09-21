@@ -22,6 +22,7 @@
   font-size: 2.5rem;
   padding-bottom: 3rem;
   letter-spacing: 0.1rem;
+  color: var(--text-color-1);
 }
 
 .flex-container {
@@ -52,7 +53,7 @@
   }
 
   .flex-container input {
-    width: 450px;
+    width: 420px;
   }
 
   .sub-button {
