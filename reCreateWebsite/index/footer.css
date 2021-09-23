@@ -47,6 +47,13 @@
 
 @media (max-width: 768px) {
   .footer {
-    height: 120px;
+    padding: 40px 0;
+    height: 100px;
+    flex-direction: column;
+  }
+
+  .footer-content {
+    color: var(--text-color-1);
+    padding-bottom: 5px;
   }
 }
