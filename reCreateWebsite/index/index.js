@@ -31,3 +31,9 @@ btnColorChange.forEach((btn) => {
     document.querySelector(":root").style.setProperty("--main-color", color);
   };
 });
+
+document.onclick = (e) => {
+  if (e.target.id === colorsPalette) {
+    colorsPalette.classList.remove("active");
+  }
+};
