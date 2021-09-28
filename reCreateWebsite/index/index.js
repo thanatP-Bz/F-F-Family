@@ -33,7 +33,8 @@ btnColorChange.forEach((btn) => {
 });
 
 document.onclick = (e) => {
-  if (e.target.id === colorsPalette) {
+  if (e.target.id !== "color-btn" && e.target.id !== "menu-btn") {
     colorsPalette.classList.remove("active");
+    menuBar.classList.remove("active");
   }
 };
