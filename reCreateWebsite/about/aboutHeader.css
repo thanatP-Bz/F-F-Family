@@ -10,9 +10,9 @@
 }
 
 .about-header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(./img/nikola-saliba-BonFa3wUrnU-unsplash.jpg);
-  margin-top: 80px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
+    url(../about/img/vitolda-klein-WsztitGinNU-unsplash.jpg);
+  margin-top: 70px;
   height: 60vh;
   position: relative;
   background-position: center;
