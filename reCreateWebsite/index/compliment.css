@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@200&display=swap");
 :root {
   --main-color: #0fb9b1;
   --bg-color-1: #eee;
@@ -7,10 +8,10 @@
   --box-shadow: 0 0.5px 1.5px rgba(0, 0, 0, 0.2);
   --font-family: "Urbanist", sans-serif;
 }
-
 .compliments {
   padding-top: 130px;
 }
+
 .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));

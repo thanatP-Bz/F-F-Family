@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap");
+:root {
+  --main-color: #0fb9b1;
+  --bg-color-1: #eee;
+  --bg-color-2: #fff;
+  --text-color-1: #444;
+  --text-color-2: #666;
+  --box-shadow: 0 0.5px 1.5px rgba(0, 0, 0, 0.2);
+}
+
+.about-header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(./img/nikola-saliba-BonFa3wUrnU-unsplash.jpg);
+  margin-top: 80px;
+  height: 60vh;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-header__theme {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 40%;
+  left: 50%;
+  color: var(--bg-color-1);
+}
+
+.about-header__theme h1 {
+  font-family: "Balsamiq Sans", cursive;
+  font-size: 4rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.about-header__theme i {
+  color: var(--main-color);
+}
