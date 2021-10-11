@@ -13,13 +13,12 @@
   min-height: 90vh;
   position: relative;
   display: flex;
-  margin: 5.9% 9% 0 9%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(./image/f-1.jpg);
+  margin: 5% 9% 0 9%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../img2/ff-13.JPG);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  border: 1rem solid #fff;
   border-radius: 5px;
 }
 

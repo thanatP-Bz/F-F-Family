@@ -38,3 +38,7 @@
 .about-header__theme i {
   color: var(--main-color);
 }
+
+.members h1 {
+  color: var(--text-color-1);
+}
